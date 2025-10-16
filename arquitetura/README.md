@@ -104,10 +104,5 @@ Essa abordagem entrega **eficiência, segurança e custo otimizado**, ideal para
 
 ---
 
-## 📊 Diagrama da Arquitetura
-
-> ![Arquitetura AWS - Pipeline de Pós-Produção de Imagens](./nome-do-arquivo-diagrama.png)
-
----
 
 
