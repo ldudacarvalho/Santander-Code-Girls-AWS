@@ -25,8 +25,8 @@ O **AWS Step Functions** é um serviço de orquestração visual que coordena m�
 
 ### Workflow Implementado: Temporizador de Tarefas
 
-![Diagrama do Fluxo Step Functions](./images/stepfunctions.jpg)
-*Fluxo visual do workflow implementado*
+![Resultado da Execução](./stepFunctions.jpg)
+*Arquitetura visual: Sequência linear com pausa programada e ação de notificação*
 
 ### ⚡ Componentes do Fluxo
 
@@ -53,9 +53,6 @@ O **AWS Step Functions** é um serviço de orquestração visual que coordena m�
 ## 📊 Resultados e Aprendizados
 
 ### ✅ Execução Bem-Sucedida
-
-![Resultado da Execução](./stepFunctions.jpg)
-*Arquitetura visual: Sequência linear com pausa programada e ação de notificação*
 
 ### 🎯 Casos de Uso Identificados
 
