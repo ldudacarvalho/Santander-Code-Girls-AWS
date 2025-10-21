@@ -48,6 +48,7 @@ O **AWS Step Functions** é um serviço de orquestração visual que coordena m�
   "message": "HelloWorld", 
   "timer_seconds": 10
 }
+```
 
 📊 Resultados e Aprendizados
 ✅ Execução Bem-Sucedida
