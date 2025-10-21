@@ -54,7 +54,7 @@ O **AWS Step Functions** é um serviço de orquestração visual que coordena m�
 
 ### ✅ Execução Bem-Sucedida
 
-![Resultado da Execução](./images/stepFunctions.jpg)
+![Resultado da Execução](./stepFunctions.jpg)
 *Arquitetura visual: Sequência linear com pausa programada e ação de notificação*
 
 ### 🎯 Casos de Uso Identificados
@@ -80,9 +80,9 @@ O **AWS Step Functions** é um serviço de orquestração visual que coordena m�
 
 ## 🚀 Próximos Passos
 
-- [ ] Integrar AWS Lambda (código customizado)
-- [ ] Implementar estados paralelos
-- [ ] Adicionar tratamento de erros avançado
-- [ ] Conectar com DynamoDB
+Integrar AWS Lambda (código customizado)
+Implementar estados paralelos
+Adicionar tratamento de erros avançado
+Conectar com DynamoDB
 
 ---
