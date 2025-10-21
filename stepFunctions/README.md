@@ -50,7 +50,7 @@ A execução (ID: `9242ffe3-60e4-...`) foi concluída com sucesso, conforme o pa
 
 ### Detalhes da Execução
 
-![Execução Bem-Sucedida do Step Functions](./aws6.jpg)
+![Execução Bem-Sucedida do Step Functions](./stepFunctions.jpg)
 *Figura: Workflow executado com sucesso - Status "Com êxito"*
 
 **Status Registrado e Aprendizados:**
