@@ -15,7 +15,7 @@ Consolidar conhecimentos em:
 
 ## 🏗️ Arquitetura Proposta
 
-![Diagrama de Arquitetura](https://lambda5.jpg)
+![Diagrama de Arquitetura](https://../images/lambda5.jpg)
 
 ### Fluxo da Arquitetura
 
