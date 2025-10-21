@@ -46,12 +46,11 @@ O Step Functions demonstrou sua capacidade de passar dados automaticamente entre
 
 ## III. Resultados e Monitoramento da Execução
 
-A execução (ID: `...`) foi concluída com sucesso, conforme o painel de monitoramento da AWS.
+A execução (ID: `...`) foi concluída com sucesso
 
 ### Detalhes da Execução
 
-![Execução Bem-Sucedida do Step Functions](./stepFunctions.jpg)
-*Figura: Workflow executado com sucesso - Status "Com êxito"*
+![Step Functions](./stepFunctions.jpg)
 
 **Status Registrado e Aprendizados:**
 
