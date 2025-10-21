@@ -77,9 +77,9 @@ O **AWS Step Functions** é um serviço de orquestração visual que coordena m�
 
 ## 🚀 Próximos Passos
 
-Integrar AWS Lambda (código customizado)
-Implementar estados paralelos
-Adicionar tratamento de erros avançado
-Conectar com DynamoDB
+- Integrar AWS Lambda (código customizado)
+- Implementar estados paralelos
+- Adicionar tratamento de erros avançado
+- Conectar com DynamoDB
 
 ---
