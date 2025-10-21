@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: "Meu primeiro template CloudFormation - Desafio DIO"
+
+Resources:
+  MeuPrimeiroBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: "meu-exemplo-de-bucket-dio"
+
