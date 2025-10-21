@@ -46,7 +46,7 @@ O Step Functions demonstrou sua capacidade de passar dados automaticamente entre
 
 ## III. Resultados e Monitoramento da Execução
 
-A execução (ID: `9242ffe3-60e4-...`) foi concluída com sucesso, conforme o painel de monitoramento da AWS.
+A execução (ID: `...`) foi concluída com sucesso, conforme o painel de monitoramento da AWS.
 
 ### Detalhes da Execução
 
