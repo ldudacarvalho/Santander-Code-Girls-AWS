@@ -35,7 +35,7 @@ Abaixo estão as seções principais que compõem um template do CloudFormation,
 
 ### 🎯 1. Definição da Infraestrutura (Template YAML)
 
-Nosso template (`cloudformation.yaml`) utiliza a seção `Resources` para definir a criação de um Bucket do S3:
+O template (`cloudformation.yaml`) utiliza a seção `Resources` para definir a criação de um Bucket do S3:
 
 ```yaml
 Resources:
@@ -49,9 +49,7 @@ Resources:
   * **Tipo de Recurso:** `AWS::S3::Bucket`.
   * **Propriedade:** `BucketName` define o nome físico do Bucket no S3.
 
-\<p align="center"\>
-\<img src="./images/1.jpg" alt="Conteúdo do arquivo cloudformation.yaml" width="650"/\>
-\</p\>
+![Conteúdo do arquivo template.yml](./images/1.jpg)
 
 -----
 
@@ -61,9 +59,7 @@ Carregamos o template YAML diretamente no console do CloudFormation.
 
   * **Fonte do modelo:** Selecionamos **"Carregar um arquivo de modelo"** e fizemos o upload do `cloudformation.yaml`.
 
-\<p align="center"\>
-\<img src="./images/2.jpg" alt="Tela de upload do template CloudFormation" width="650"/\>
-\</p\>
+![Tela de upload de arquivos](./images/2.jpg)
 
 ### 🏷️ 3. Nomenclatura da Pilha
 
@@ -72,9 +68,7 @@ Definimos o nome que será usado para gerenciar esta coleção de recursos.
   * **Nome da pilha (Stack Name):** `primeira-stack`
   * **Parâmetros:** Não foram definidos parâmetros, então prosseguimos.
 
-\<p align="center"\>
-\<img src="./images/3.jpg" alt="Tela de especificação de detalhes da pilha (stack)" width="650"/\>
-\</p\>
+![Tela de especificação de detalhes](./images/3.jpg)
 
 -----
 
@@ -89,9 +83,7 @@ O CloudFormation iniciou o provisionamento dos recursos. A aba **Eventos** confi
 | `primeira-pilha` | **CRIAR\_COMPLETO** | Stack criada com sucesso. |
 | `MeuPrimeiroBucket` | **CRIAR\_COMPLETO** | Recurso S3 provisionado. |
 
-\<p align="center"\>
-\<img src="./images/4.jpg" alt="Tela de Eventos do CloudFormation mostrando o status de criação" width="650"/\>
-\</p\>
+![Tela de eventos e status](./images/4.jpg)
 
 ### 🌐 5. Verificação do Recurso (S3)
 
@@ -100,9 +92,7 @@ O console do Amazon S3 mostra o Bucket criado, confirmando que o CloudFormation 
   * **Nome do Bucket:** `meu-exemplo-de-bucket-dio`
   * **Região:** South America (São Paulo) `sa-east-1`
 
-\<p align="center"\>
-\<img src="./images/5.jpg" alt="Tela do S3 mostrando o bucket criado" width="650"/\>
-\</p\>
+![Bucket criado](./images/5.jpg)
 
 -----
 
