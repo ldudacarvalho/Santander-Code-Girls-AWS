@@ -50,40 +50,39 @@ O **AWS Step Functions** é um serviço de orquestração visual que coordena m�
 }
 ```
 
-📊 Resultados e Aprendizados
-✅ Execução Bem-Sucedida
-https://./images/execucao-sucesso.jpg
-Workflow executado com status "Com êxito"
+## 📊 Resultados e Aprendizados
 
-🎯 Casos de Uso Identificados
-Aplicações Imediatas:
-✅ Notificações com delay programado
+### ✅ Execução Bem-Sucedida
 
-✅ Processamento em lote agendado
+![Resultado da Execução](./images/stepFunctions.jpg)
+*Arquitetura visual: Sequência linear com pausa programada e ação de notificação*
 
-✅ Workflows com prazos definidos
+### 🎯 Casos de Uso Identificados
 
-Evolução Futura:
-🔄 Pipelines ETL temporizados
+#### **Aplicações Imediatas:**
+- ✅ Notificações com delay programado
+- ✅ Processamento em lote agendado  
+- ✅ Workflows com prazos definidos
 
-🔄 Orquestração de microsserviços
+#### **Evolução Futura:**
+- 🔄 Pipelines ETL temporizados
+- 🔄 Orquestração de microsserviços
+- 🔄 Processos com aprovação humana
 
-🔄 Processos com aprovação humana
+### 💡 Lições Valiosas
 
-💡 Lições Valiosas
-Visual > Código: Diagramas facilitam entendimento
+- **Visual > Código:** Diagramas facilitam entendimento
+- **Resiliência Built-in:** Error handling automático
+- **Observabilidade:** Monitoramento nativo
+- **Baixo Acoplamento:** Serviços independentes
 
-Resiliência Built-in: Error handling automático
+---
 
-Observabilidade: Monitoramento nativo
+## 🚀 Próximos Passos
 
-Baixo Acoplamento: Serviços independentes
+- [ ] Integrar AWS Lambda (código customizado)
+- [ ] Implementar estados paralelos
+- [ ] Adicionar tratamento de erros avançado
+- [ ] Conectar com DynamoDB
 
-🚀 Próximos Passos
-Integrar AWS Lambda (código customizado)
-
-Implementar estados paralelos
-
-Adicionar tratamento de erros avançado
-
-Conectar com DynamoDB
+---
